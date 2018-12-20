@@ -7,7 +7,7 @@ const Navigation = () => {
 			<ul className='nav'>
 				<li>
 					<NavLink exact activeClassName='active' to='/'>
-						Home Page Place Holder
+						Home
 				</NavLink>
 				</li>
 				<li>
@@ -17,12 +17,12 @@ const Navigation = () => {
 				</li>
 				<li>
 					<NavLink activeClassName='active' to='/blocks'>
-						Place holder
+						Blocks
 				</NavLink>
 				</li>
 				<li>
 					<NavLink activeClassName='active' to='/blockchain'>
-					Place holder
+					Blockchains
 				</NavLink>
 				</li>
 			</ul>
