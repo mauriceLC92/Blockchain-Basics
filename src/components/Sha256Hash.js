@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Form, Header } from 'semantic-ui-react'
+import { Form, Header, TextArea } from 'semantic-ui-react'
 import CryptoJS from 'crypto-js';
 
 class Sha256Hash extends Component {
@@ -24,7 +24,7 @@ class Sha256Hash extends Component {
 	render() {
 		return (
 			<Form className='form'>
-				<Header as='h2'>SHA256</Header>
+				<Header as='h2'>SHA256 - The hash function used in Bitcoin</Header>
 				<Form.Field>
 					<label>Data Input</label>
 					<input
@@ -39,6 +39,7 @@ class Sha256Hash extends Component {
 						<input
 							value={this.state.SHA256Input} />
 					</Form.Field>
+					
 				</Form>
 			</Form>
 		)

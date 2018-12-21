@@ -25,7 +25,7 @@ class Sha256Hash extends Component {
 	render() {
 		return (
 			<Form>
-				<Header as='h2'>keccak256</Header>
+				<Header as='h2'>keccak256 - The hash function used in Ethereum</Header>
 				<Form.Field>
 					<label>Data Input</label>
 					<input
