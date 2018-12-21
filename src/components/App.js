@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Switch } from 'react-router-dom';
 
 import Navigation from './Navigation';
-import Hashing from './Hashing';
+import HashingContainer from './HashingContainer';
 import Home from './Home';
 import 'semantic-ui-css/semantic.min.css';
 
@@ -16,7 +16,7 @@ class App extends Component {
 			<Navigation />
 			<Switch>
 				<Route exact path='/' component={Home} />
-				<Route exact path='/hashing' component={Hashing} />
+				<Route exact path='/hashing' component={HashingContainer} />
 				{/* <Route exact path='/blocks' component={LiveFeedContainer} />
 				<Route path='/blockchain' component={BoardContainer} /> */}
 				<Route render={function () {
