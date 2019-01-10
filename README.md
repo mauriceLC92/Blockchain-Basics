@@ -17,7 +17,7 @@ NodeJs installed on your machine
 Clone the repo
 ```
 git clone https://github.com/mauriceLC92/Blockchain-Basics.git
-cd Node-Notes-App
+cd Blockchain-Basics
 npm i
 npm run start
 ```
